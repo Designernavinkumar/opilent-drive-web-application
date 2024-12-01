@@ -22,7 +22,7 @@ module.exports = {
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
-        noto: ['Work Sans', 'sans-serif'],
+        workSans: ['Work Sans', 'sans-serif'],
       },
     },
   },
