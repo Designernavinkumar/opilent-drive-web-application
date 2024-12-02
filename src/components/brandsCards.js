@@ -30,8 +30,8 @@ function validateScreenSize() {
 
   validLogos.forEach((logo) => {
     container.innerHTML += `
-      <div class="p-2 sm:p-[10px] md:p-3 w-[220px]  h-[100px] flex justify-center border-[1px] border-Gray-3 items-center rounded-xl">
-        <img class="w-[100px]  h-[100px] object-contain p-4" src="${logo.imgUrl}" alt="${logo.imgUrl}">
+      <div class="p-2 sm:p-[10px] md:p-3 lg:w-[200px]  lg:h-[100px] md:w-[180px] md:h-[100px] sm:w-[140px] sm:h-[80px] flex-grow flex justify-center border-[1px] border-Gray-3 items-center rounded-xl">
+        <img class="h-[100px] w-[100px] object-contain p-4" src="${logo.imgUrl}" alt="${logo.imgUrl}">
       </div>
     `;
   });
